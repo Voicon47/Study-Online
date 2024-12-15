@@ -7,7 +7,8 @@ function VideoLearning(props: VideoLearningProps) {
    return (
       <div
          style={{
-            height: 'calc(100vh - 10rem)',
+            // height: 'calc(100vh - 10rem)',
+            height: 'calc(100vh)',
          }}
          className="select-none scroll-custom overflow-auto w-full "
       >
@@ -33,6 +34,7 @@ function VideoLearning(props: VideoLearningProps) {
                      className="w-full"
                   >
                      <source src={props.data.video?.videoURL} type="video/mp4" />
+                     Your browser does not support for your device
                   </video>
                )}
             </div>

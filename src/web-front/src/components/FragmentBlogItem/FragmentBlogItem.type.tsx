@@ -95,7 +95,7 @@ export interface ITextEditor {
 
 export interface IYoutubeEmbed {
    id?: number | string;
-   content?: string;
+   content: string;
    index: number;
    alt?: string;
    imgURL?: string;

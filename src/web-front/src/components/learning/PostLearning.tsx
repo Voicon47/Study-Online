@@ -12,7 +12,8 @@ function BlogView(props: PostViewProps) {
    return (
       <div
          style={{
-            height: 'calc(100vh - 10rem)',
+            // height: 'calc(100vh - 10rem)',
+            height: 'calc(100vh - 0rem)',
          }}
          className="overflow-auto overflow-x-hidden "
       >

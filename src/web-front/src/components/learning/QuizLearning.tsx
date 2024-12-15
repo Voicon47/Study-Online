@@ -31,7 +31,8 @@ function QuizLearning(props: QuizLearningProps) {
    return (
       <div
          style={{
-            height: 'calc(100vh - 10rem)',
+            // height: 'calc(100vh - 10rem)',
+            height: 'calc(100vh - 0rem)',
          }}
          className="select-none scroll-custom overflow-auto w-full pl-28 pr-28 pt-10 pb-28"
       >

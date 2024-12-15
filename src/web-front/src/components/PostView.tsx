@@ -33,11 +33,9 @@ export const getContentBlog = (data: TypeItemPost) => {
          );
       }
       case FragmentBlogItemType.EMBED_YOUTUBE: {
-         return <YouTubeEmbed key={data.id} videoId={'R_zMKRuQbM0'}></YouTubeEmbed>;
+         return <YouTubeEmbed key={data.id} videoId={data.content}></YouTubeEmbed>;
       }
-      case FragmentBlogItemType.EMBED_FACEBOOK: {
-         return <FacebookEmbed key={data.id}></FacebookEmbed>;
-      }
+      
       default:
          null;
    }

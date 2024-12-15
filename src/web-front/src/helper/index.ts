@@ -93,7 +93,8 @@ class Helper {
    getVideoYTId(linkYT: string = 'https://www.youtube.com/watch?v=4DEK3cia8cI') {
       const exampleFindLink = 'watch?v=';
       const index = linkYT.indexOf(exampleFindLink);
-      const idVideo = linkYT.substring(index + exampleFindLink.length);
+      const idVideo = linkYT.substring(index + exampleFindLink.length,index + exampleFindLink.length+11);
+      console.log(idVideo)
       return idVideo;
    }
 }

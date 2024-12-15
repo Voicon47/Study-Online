@@ -8,7 +8,7 @@ const YouTubeEmbed: React.FC<YouTubeEmbedProps> = ({ videoId }) => {
     return (
         <iframe
             style={{
-                height: '400px',
+                height: '800px',
             }}
             className="rounded-xl"
             width="100%"

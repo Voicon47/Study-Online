@@ -39,6 +39,8 @@ export type ILesson = {
    video?: IVideoLesson | null;
    post?: IPostLesson | null;
    index: number;
+   status? : boolean;
+   imgUrl? : string;
 };
 
 export type IQuestion = {

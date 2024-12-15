@@ -18,6 +18,7 @@ import AddPost from "../pages/admin/post/add";
 import PostManagement from "../pages/admin/post";
 import UserManagement from "../pages/admin/user";
 import { ProfilePage, SettingPage } from "../pages/user";
+import UserManagerPost from "../pages/user/manager-post";
 
 
 
@@ -129,11 +130,11 @@ export const privateRoutes: routeProps[] = [
    //    component: <ViewPost />,
    //    type: typeRoute.PRIVATE_ROUTE,
    // },
-   // {
-   //    path: path.USER.MANAGER_POST,
-   //    component: <UserManagerPost />,
-   //    type: typeRoute.PRIVATE_ROUTE,
-   // },
+   {
+      path: path.USER.MANAGER_POST,
+      component: <UserManagerPost />,
+      type: typeRoute.PRIVATE_ROUTE,
+   },
    {
       path: path.USER.PROFILE,
       component: <ProfilePage />,
